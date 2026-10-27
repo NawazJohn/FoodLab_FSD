@@ -1,0 +1,31 @@
+FOODLAB — FULL STACK DEVELOPMENT PROJECT (MERN STACK)
+=========================================================
+Technologies Included:
+1. M - MongoDB (Mongoose Schemas: Batch, Sample, Test, AuditLog)
+2. E - Express.js (REST API Endpoints & Middleware)
+3. R - React.js (Interactive UI, Quality Dashboard, Test Workbench, COA Generator)
+4. N - Node.js (Runtime Server with ES Modules)
+
+HOW TO RUN:
+-----------
+1. Start the Backend:
+   cd server
+   npm install
+   npm run dev
+
+   Backend runs on: http://localhost:5000
+   API Health & MERN Status: http://localhost:5000/api/health
+
+2. Start the Frontend:
+   cd client
+   npm install
+   npm run dev
+
+   Open the URL shown (e.g. http://localhost:5173 or http://localhost:5174).
+
+MONGODB SETUP:
+--------------
+- Configured in server/.env (MONGODB_URI).
+- Local: mongodb://127.0.0.1:27017/foodlab
+- Cloud: Paste your free MongoDB Atlas URI in server/.env
+- Automatic fallback ensures the system is testable immediately without crashing.

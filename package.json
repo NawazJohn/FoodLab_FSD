@@ -1,0 +1,9 @@
+{
+  "name": "foodlab-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes concurrently --kill-others \"npm --prefix FoodLab_FSD/server run dev\" \"npm --prefix FoodLab_FSD/client run dev\"",
+    "dev": "npx --yes concurrently --kill-others \"npm --prefix FoodLab_FSD/server run dev\" \"npm --prefix FoodLab_FSD/client run dev\""
+  }
+}
